@@ -28,6 +28,7 @@ const fadeInDown = keyframes`
 
 export default function Home() {
     return (
+        <>
         <div className="main-container">
             <Fade keyframes={fadeInDown} triggerOnce={true}>
                 <Menu />
@@ -35,11 +36,8 @@ export default function Home() {
             <Fade keyframes={fadeInUp} triggerOnce={true}>
                 <About />
             </Fade>
-            <Fade keyframes={fadeInUp}>
-                <Skills />
-            </Fade>
         </div>
-        
-
+        <Skills/>
+        </>
     )
 }
