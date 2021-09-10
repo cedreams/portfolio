@@ -14,16 +14,17 @@ const fadeInUp = keyframes`
 
 export default function Skills() {
     return (
-        <div className="skills-container">
+        <div className="skills-container" id="skills">
             <div className="skills-content">
                 <img className="skills-content-image"src="assets/images/undraw_programming_2svr.svg" />
                 <div className="skills-body">
                     <Fade keyframes={fadeInUp}>
                         <div className="skills-body-title">Languages, frameworks &amp; tools</div>
                     </Fade>
-                    <Fade keyframes={fadeInUp}>
+                    
                         <div className="skills-body-list">
                             <ul>
+                            <Fade keyframes={fadeInUp} cascade={true} duration={100} fraction={0}>
                                 <li ><img alt="html5" src="assets/images/icons/html5.svg"/><span className="label">HTML5</span></li>
                                 <li ><img alt="css3" src="assets/images/icons/css3.svg"/><span className="label">CSS3</span></li>
                                 <li ><img alt="javascript" src="assets/images/icons/javascript.svg"/> <span className="label">JavaScript</span></li>
@@ -40,9 +41,10 @@ export default function Skills() {
                                 <li ><img alt="git" src="assets/images/icons/git.svg"/><span className="label">Git</span></li>
                                 <li ><img alt="webpack" src="assets/images/icons/webpack.svg"/><span className="label">Webpack</span></li>
                                 <li ><img alt="linux" src="assets/images/icons/linux.svg"/><span className="label">Linux</span></li>
+                            </Fade>
                             </ul>
                         </div>
-                    </Fade>
+                    
                 </div>
             </div>
         </div>

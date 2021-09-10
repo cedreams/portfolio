@@ -7,7 +7,7 @@ export default function Menu() {
             <div className="menu-links">
                 <a href="#about" className="menu-link">About</a>
                 <a href="#skills" className="menu-link">Skills</a>
-                <a href="#projects" className="menu-link">Projects</a>
+                <a href="#projects" className="menu-link">Contact</a>
             </div>
         </div>
     );
