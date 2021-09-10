@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body,html {
+    padding: 0;
+    margin: 0;
+    background-color: #FAFBFC;
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.gradient-name {
+    background: -webkit-gradient(linear, left top, right bottom, from(#1e2761), to(#408ec6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu-container {
+    max-width: 1080px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-links {
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-link {
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: .25s ease-in-out;
+    color:black;
+}
+
+.menu-link:hover {
+    transform: translateY(5px);
+}
+
+.main-container {
+    padding-top: 75px;
+    padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    min-height: 450px;
+}
+
+.about-content {
+    margin: 100px auto;
+    max-width: 1080px;
+    font-weight: 600;
+    color: #080038;
+    font-size: 40px;
+    line-height: 56px;
+    padding-top: 55px;
+}
+
+.skills-content {
+    margin: 100px auto;
+    max-width: 1080px;
+    background: white;
+    border-radius:10px;
+    box-shadow: 0px 0px 30px 0px #00000012;
+    margin-top: 130px;
+}
+
+.skills-content .skills-title {
+    position: absolute;
+    top: -50px;
+    font-size: 25px;
+}
+
+.skills-content ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    padding-left: 0;
+    margin: 0;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: height 5s;
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgb(0 0 0)), to(rgb(0 0 0 / 15%)));
+}
+
+.skills-content ul:hover {
+    -webkit-mask-image: unset;
+}
+
+.skills-content ul .others {
+    max-height: 0;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+}
+
+.skills-content ul:hover .others {
+    max-height: 1000px;
+    transition: max-height 0.25s ease-in;
+}
+
+.skills-content ul li {
+    list-style: none;
+    padding: 10px 18px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    max-height: 50px;
+}
+
+.skills-content ul li + li {
+    border-top: 1px solid rgb(8 0 56 / 4%);
+}
+
+.skills-content ul li img {
+    vertical-align: middle;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.skills-content .hoverme {
+    position: relative;
+    text-align: center;
+    color: #080038;
+    bottom: 15px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.skills-content:hover .hoverme {
+    opacity: 0;
+}
+
+@media screen and (max-width: 550px) {
+    .main-container {
+        padding: 75px 40px 0;
+        min-height: 400px;
+    }
+
+    .about-content {
+        font-weight: 500;
+        margin: 10px auto auto;
+        color: #080038;
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    .menu-container {
+        flex-direction: column;
+    }
+}
+
+
+
