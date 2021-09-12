@@ -2,29 +2,8 @@ import Menu from "../components/Menu";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Fade from "react-awesome-reveal";
-import { keyframes } from "@emotion/react";
-
-const fadeInUp = keyframes`
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-`;
-
-const fadeInDown = keyframes`
-  from {
-    opacity: 0;
-    transform: translate3d(0, -100%, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-`;
+import fadeInUp from "../animations/fadeInUp";
+import fadeInDown from "../animations/fadeInDown";
 
 export default function Home() {
     return (
@@ -39,5 +18,5 @@ export default function Home() {
         </div>
         <Skills/>
         </>
-    )
+    );
 }

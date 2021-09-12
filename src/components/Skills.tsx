@@ -1,16 +1,5 @@
 import Fade from "react-awesome-reveal";
-import { keyframes } from "@emotion/react";
-
-const fadeInUp = keyframes`
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-`;
+import fadeInUp from "../animations/fadeInUp";
 
 export default function Skills() {
     return (
@@ -24,7 +13,7 @@ export default function Skills() {
                     
                         <div className="skills-body-list">
                             <ul>
-                            <Fade keyframes={fadeInUp} cascade={true} duration={100} fraction={0}>
+                            <Fade keyframes={fadeInUp} triggerOnce={true} cascade={true} duration={100} fraction={0}>
                                 <li ><img alt="html5" src="assets/images/icons/html5.svg"/><span className="label">HTML5</span></li>
                                 <li ><img alt="css3" src="assets/images/icons/css3.svg"/><span className="label">CSS3</span></li>
                                 <li ><img alt="javascript" src="assets/images/icons/javascript.svg"/> <span className="label">JavaScript</span></li>
