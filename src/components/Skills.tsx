@@ -19,6 +19,7 @@ export default function Skills() {
                                 <li ><img alt="javascript" src="assets/images/icons/javascript.svg"/> <span className="label">JavaScript</span></li>
                                 <li ><img alt="jquery" src="assets/images/icons/jquery.svg"/> <span className="label">jQuery</span></li>
                                 <li ><img alt="react" src="assets/images/icons/react.svg"/><span className="label">React</span></li>
+                                <li ><img alt="react" src="assets/images/icons/nextdotjs.svg"/><span className="label">Next.js</span></li>
                                 <li ><img alt="php" src="assets/images/icons/php.svg"/><span className="label">PHP</span></li>
                                 <li ><img alt="laravel" src="assets/images/icons/laravel.svg"/><span className="label">Laravel</span></li>
                                 <li ><img alt="java" src="assets/images/icons/java.svg"/><span className="label">Java</span></li>
