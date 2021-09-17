@@ -5,13 +5,11 @@ import blurFadeOut from "../animations/blurFadeOut";
 export default function Skills() {
     return (
         <div id="skills" className="skills-content">
-            <Reveal keyframes={blurFadeOut} triggerOnce={true} duration={1500}>
             <div className="skills-content-stack-skelet">
                 <Reveal keyframes={blurFadeOut} triggerOnce={true} duration={2000} >
                     <img className="skills-content-image "src="assets/images/expo-code.jpeg" />
                 </Reveal>
             </div>
-            </Reveal>
             <div className="skills-body">
                 <Fade keyframes={fadeInUp} triggerOnce={true}>
                     <div className="skills-body-title title">Languages, frameworks &amp; tools</div>
