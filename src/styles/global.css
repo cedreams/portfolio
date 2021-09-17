@@ -248,11 +248,9 @@ body,html {
     margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-.contact-title {
     color: white;
 }
+
 
 @media screen and (max-width: 550px) {
     .title {
@@ -277,6 +275,10 @@ body,html {
 
     .skills-content-image {
         width: 300px;
+    }
+
+    .education-desc {
+        font-size: 15px;
     }
 
 }

@@ -20,15 +20,21 @@ export default function Home() {
                 </Fade>
             </div>
             <div className="bg-container">
-                <Skills />
+                <div className="main-container">
+                    <Skills />
+                </div>
             </div>
             <div className="main-container">
-                <Fade keyframes={fadeInUp} triggerOnce={true}>
+                <Fade keyframes={fadeInUp} triggerOnce={true} fraction={0.5}> 
                     <Education />
                 </Fade>
             </div>
             <div className="bg-container">
-                <Contact />
+                <div className="main-container">
+                    <Fade keyframes={fadeInUp} triggerOnce={true} fraction={0.6}> 
+                        <Contact />
+                    </Fade>
+                </div>
             </div>
         </>
     );
