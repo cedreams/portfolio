@@ -104,15 +104,30 @@ body,html {
     color: #080038;
 }
 
+.education-desc {
+    font-size: 22px;
+    margin-bottom: 80px;
+}
+
 .education-item {
     background: white;
     -webkit-box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
     box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
     padding: 20px;
-    margin-top:10px;
     border-radius: 10px;
+    margin: 30px 0px;
     /*width: fit-content;
     margin: auto;*/
+}
+
+.education-hole-gradhat {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    margin: -38px auto 0px;
+    background: linear-gradient(163.1deg,#7a22af -5.81%,#f40078 113.99%);
+    text-align: center;
+    line-height: 35px;
 }
 
 .education-item-name {
@@ -255,12 +270,15 @@ body,html {
         flex-direction: column;
     }
 
-    .skills-content {
-        flex-direction: column;
-    }
-
     .skills-content-image {
         width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .skills-content {
+        flex-direction: column;
     }
 
     .skills-content-stack-skelet {
