@@ -1,6 +1,6 @@
 import EducationItemProps from "./EducationItemProps";
 
-const EducationItem = ({place, name, date}: EducationItemProps) => {
+export default function({place, name, date}: EducationItemProps) {
     return (
         <>
             <div className="education-item">
@@ -17,6 +17,4 @@ const EducationItem = ({place, name, date}: EducationItemProps) => {
             </div>
         </>
     );
-};
-
-export default EducationItem;
+}
