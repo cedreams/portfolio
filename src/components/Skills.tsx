@@ -1,13 +1,20 @@
-import Fade from "react-awesome-reveal";
+import Fade, { Reveal } from "react-awesome-reveal";
 import fadeInUp from "../animations/fadeInUp";
+import blurFadeOut from "../animations/blurFadeOut";
 
 export default function Skills() {
     return (
         <div className="skills-container" id="skills">
             <div className="skills-content">
-                <img className="skills-content-image"src="assets/images/undraw_programming_2svr.svg" />
+                <Reveal keyframes={blurFadeOut} triggerOnce={true} duration={1500}>
+                <div className="skills-content-stack-skelet">
+                    <Reveal keyframes={blurFadeOut} triggerOnce={true} duration={1500} >
+                        <img className="skills-content-image "src="assets/images/expo-code.jpeg" />
+                    </Reveal>
+                </div>
+                </Reveal>
                 <div className="skills-body">
-                    <Fade keyframes={fadeInUp}>
+                    <Fade keyframes={fadeInUp} triggerOnce={true}>
                         <div className="skills-body-title">Languages, frameworks &amp; tools</div>
                     </Fade>
                     

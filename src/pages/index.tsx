@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <>
         <div className="main-container">
-            <Fade keyframes={fadeInDown}>
+            <Fade keyframes={fadeInDown} triggerOnce={true}>
                 <Menu />
             </Fade>
             <Fade keyframes={fadeInUp} triggerOnce={true}>
