@@ -49,10 +49,12 @@ body,html {
     transition: .25s ease-in-out;
     color:black;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .menu-link:hover {
     transform: translateY(5px);
+    background: #2b2b5912;
 }
 
 .main-container {
@@ -74,6 +76,64 @@ body,html {
     padding-top: 55px;
 }
 
+.education-content {
+    margin: 100px auto;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.education-grad-hat {
+    width: 400px;
+    margin: 0px auto -165px;
+    display: flex;
+}
+
+.education-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #080038;
+}
+
+.education-item {
+    background: white;
+    -webkit-box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
+    box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
+    padding: 20px;
+    margin-top:10px;
+    border-radius: 10px;
+    /*width: fit-content;
+    margin: auto;*/
+}
+
+.education-item-name {
+    font-style: italic;
+    color: grey;
+}
+
+.education-item-date {
+    font-size: 12px;
+    text-align:right;
+}
+
+.education-path {
+    height: 65px;
+    border-left-width: 6px;
+    width: 7px;
+    border-left-color: #dedede;
+    border-left-style: dashed;
+    margin: 0px auto -15px;
+}
+
+.point {
+    background: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
 .skills-container {
     margin-top: 100px;
     background: linear-gradient(151.18deg,#2b2b58 .46%,#2d2dab 101.36%);
@@ -84,7 +144,6 @@ body,html {
     margin: auto;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-bottom: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
