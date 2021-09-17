@@ -73,6 +73,11 @@ body,html {
     min-height: 450px;
 }
 
+.bg-container {
+    margin-top: 100px;
+    background: linear-gradient(151.18deg,#2b2b58 .46%,#2d2dab 101.36%);
+}
+
 .about-content {
     margin: 100px auto;
     max-width: 1080px;
@@ -145,11 +150,6 @@ body,html {
     width: 30px;
     height: 30px;
     border-radius: 20px;
-}
-
-.skills-container {
-    margin-top: 100px;
-    background: linear-gradient(151.18deg,#2b2b58 .46%,#2d2dab 101.36%);
 }
 
 .skills-content {

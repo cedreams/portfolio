@@ -11,7 +11,7 @@ export default function Home() {
     return (
         <>
         
-            {/*
+            
             <div className="main-container">
                 <Fade keyframes={fadeInDown} triggerOnce={true}>
                     <Menu />
@@ -20,14 +20,16 @@ export default function Home() {
                     <About />
                 </Fade>
             </div>
-            <Skills />
+            <div className="bg-container">
+                <Skills />
+            </div>
             <div className="main-container">
                 <Fade keyframes={fadeInUp} triggerOnce={true}>
                     <Education />
                 </Fade>
             </div>
 
-            */}
+            
             <Contact />
         </>
     );

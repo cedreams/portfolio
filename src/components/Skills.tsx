@@ -4,8 +4,8 @@ import blurFadeOut from "../animations/blurFadeOut";
 
 export default function Skills() {
     return (
-        <div className="skills-container" id="skills">
-            <div className="skills-content">
+
+            <div id="skills" className="skills-content">
                 <Reveal keyframes={blurFadeOut} triggerOnce={true} duration={1500}>
                 <div className="skills-content-stack-skelet">
                     <Reveal keyframes={blurFadeOut} triggerOnce={true} duration={1500} >
@@ -44,6 +44,6 @@ export default function Skills() {
                     
                 </div>
             </div>
-        </div>
+
     );
 }
