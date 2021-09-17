@@ -10,7 +10,6 @@ import fadeInDown from "../animations/fadeInDown";
 export default function Home() {
     return (
         <>
-        
             
             <div className="main-container">
                 <Fade keyframes={fadeInDown} triggerOnce={true}>
@@ -28,9 +27,9 @@ export default function Home() {
                     <Education />
                 </Fade>
             </div>
-
-            
-            <Contact />
+            <div className="bg-container">
+                <Contact />
+            </div>
         </>
     );
 }
