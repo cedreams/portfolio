@@ -140,15 +140,6 @@ body,html {
     text-align:right;
 }
 
-.education-path {
-    height: 65px;
-    border-left-width: 6px;
-    width: 7px;
-    border-left-color: #dedede;
-    border-left-style: dashed;
-    margin: 0px auto -15px;
-}
-
 .point {
     background: black;
     width: 30px;
