@@ -3,8 +3,7 @@
 @font-face {
     font-family: "Parisienne";
     src: url("fonts/Parisienne-Regular.ttf");
-  }
-  
+}  
 
 body,html {
     padding: 0;
@@ -22,14 +21,17 @@ body,html {
 .logo {
     display: flex;
     font-weight: 700;
-    font-size: 3em;
-    font-family: 'Parisienne';
+    font-size: 2.5em;
+    letter-spacing: -2px;
+    color: #080038;
 }
 
 .gradient-name {
-    background: -webkit-gradient(linear, left top, right bottom, from(#2b2b58), to(#2d2dab));
+    /*background: -webkit-gradient(linear, left top, right bottom, from(#2b2b58), to(#2d2dab));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    */
+    font-weight: 100;
 }
 
 .title {
@@ -78,6 +80,7 @@ body,html {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+    border-bottom: 1px solid #ececec;
 }
 
 .about-content {
@@ -85,6 +88,7 @@ body,html {
     max-width: 1080px;
     color: #080038;
     line-height: 55px;
+    font-size: 40px;
 }
 
 .education-content {
@@ -244,10 +248,12 @@ body,html {
         margin: 80px auto;
         color: #080038;
         line-height: 31px;
+        font-size: 25px;
     }
 
     .menu-content {
         flex-direction: column;
+        border-bottom: none;
     }
 
     .skills-content-image {
