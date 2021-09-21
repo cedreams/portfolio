@@ -37,15 +37,6 @@ body,html {
     font-weight: 700;
 }
 
-.menu-container {
-    max-width: 1080px;
-    align-items: center;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 .menu-links {
     width: 300px;
     display: flex;
@@ -65,30 +56,35 @@ body,html {
 }
 
 .menu-link:hover {
-    transform: translateY(5px);
+    transform: scale(1.2);
     background: #2b2b5912;
 }
 
 .main-container {
-    padding-top: 75px;
-    padding-bottom: 15px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: bottom;
-    min-height: 450px;
+    padding: 15px 30px;
 }
 
 .bg-container {
-    margin-top: 100px;
     background: linear-gradient(151.18deg,#2b2b58 .46%,#2d2dab 101.36%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.menu-content {
+    max-width: 1080px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 .about-content {
-    margin: 100px auto;
+    margin: 140px auto;
     max-width: 1080px;
     color: #080038;
-    line-height: 56px;
-    padding-top: 55px;
+    line-height: 55px;
 }
 
 .education-content {
@@ -97,6 +93,22 @@ body,html {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.skills-content {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.contact-content {
+    max-width: 1080px;
+    margin: auto;
+    color: white;
 }
 
 .education-grad-hat {
@@ -122,8 +134,6 @@ body,html {
     padding: 20px;
     border-radius: 10px;
     margin: 30px 0px;
-    /*width: fit-content;
-    margin: auto;*/
 }
 
 .education-hole-gradhat {
@@ -144,25 +154,6 @@ body,html {
 .education-item-date {
     font-size: 12px;
     text-align:right;
-}
-
-.point {
-    background: black;
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-}
-
-.skills-content {
-    max-width: 1080px;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
 }
 
 .skills-content-image {
@@ -243,33 +234,19 @@ body,html {
     margin-right: 5px;
 }
 
-.contact-content {
-    max-width: 1080px;
-    margin: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    color: white;
-}
-
-
 @media screen and (max-width: 550px) {
     .title {
         font-weight: 500;
         font-size: 25px;
     }
 
-    .main-container {
-        padding: 75px 40px 0;
-        min-height: 400px;
-    }
-
     .about-content {
-        margin: 10px auto auto;
+        margin: 80px auto;
         color: #080038;
         line-height: 31px;
     }
 
-    .menu-container {
+    .menu-content {
         flex-direction: column;
     }
 
@@ -280,7 +257,6 @@ body,html {
     .education-desc {
         font-size: 15px;
     }
-
 }
 
 @media screen and (max-width: 950px) {
@@ -292,6 +268,3 @@ body,html {
         margin-bottom: 40px;
     }
 }
-
-
-

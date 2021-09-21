@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function Menu() {
     return (
-        <div className="menu-container">
+        <div className="menu-content">
             <Logo />
             <div className="menu-links">
                 <Link smooth to="about" className="menu-link">About</Link>
