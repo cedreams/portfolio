@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="main-container">
-                <Fade keyframes={fadeInUp} triggerOnce={true} fraction={0.5}> 
+                <Fade keyframes={fadeInUp} triggerOnce={true}> 
                     <Education />
                 </Fade>
             </div>
