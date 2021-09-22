@@ -6,10 +6,13 @@ export default function Contact() {
 
     function handleChange(event: any) {
         let dataIn = event.nativeEvent.data;
+        let value = event.target.value;
+        
         if((dataIn != null 
             && dataIn.match("[0-9]")
-            && event.target.value.length <= 10) 
-            || (dataIn == null)) {
+            && value.length <= 10) 
+            || (dataIn == null 
+                && value.length >= 1)) {
             setPhone(event.target.value);
         } 
     }
