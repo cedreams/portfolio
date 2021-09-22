@@ -233,6 +233,36 @@ body,html {
     margin-right: 5px;
 }
 
+.phone-section {
+    background: white;
+    display: inline-block;
+    padding: 5px;
+    box-shadow: 4px 12px 40px 6px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+}
+
+.phone-field {
+    border: none;
+    padding: 10px;
+    outline: 0;
+    font-size:20px;
+    text-align:center;
+}
+
+.phone-submit {
+    padding: 7px 11px;
+    color: white;
+    background: linear-gradient(163.1deg,#7a22af -5.81%,#f40078 113.99%);
+    border-radius: 50px;
+    font-size: 14px;
+    transition: .25s ease-in-out;
+    cursor:pointer;
+}
+
+.phone-submit:hover {
+    transform: scale(1.2);
+}
+
 @media screen and (max-width: 550px) {
     .title {
         font-weight: 600;
