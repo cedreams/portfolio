@@ -5,7 +5,7 @@ export default function Contact() {
 
             <div className="contact-item">
                 <img src="assets/images/icons/email.svg"/>
-                me@cedricthonus.be
+                cedric@thonus.dev
             </div>
             <div className="contact-item">
                 <img src="assets/images/icons/github.svg"/>
