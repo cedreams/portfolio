@@ -6,11 +6,11 @@ export default function Menu() {
         <div className="menu-content">
             <Logo />
             <div className="menu-links">
-                <Link smooth to="about" className="menu-link">About</Link>
+                <Link smooth to="about" className="menu-link selected">About</Link>
                 <Link smooth to="skills" className="menu-link">Skills</Link>
                 <Link smooth to="education" className="menu-link">Education</Link>
-                <Link smooth to="contact" className="menu-link">Contact</Link>
+                <Link smooth to="contact" className="menu-link contact">Contact</Link>
             </div>
         </div>
     );
-}
+}   

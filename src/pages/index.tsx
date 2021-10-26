@@ -8,6 +8,7 @@ import fadeInUp from "../animations/fadeInUp";
 import fadeInDown from "../animations/fadeInDown";
 
 export default function Home() {
+
     return (
         <>
             

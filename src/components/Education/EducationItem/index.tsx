@@ -4,7 +4,9 @@ export default function({place, name, date}: EducationItemProps) {
     return (
         <>
             <div className="education-item">
-                <div className="education-hole-gradhat">🎓</div>
+                <div className="education-hole-gradhat">
+                    <img src="assets/images/grad_hat.svg" />
+                </div>
                 <div className="education-item-place">
                     {place}
                 </div>
