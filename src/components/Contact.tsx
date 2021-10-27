@@ -5,7 +5,7 @@ export default function Contact() {
         <div id="contact" className="contact-content">
             <div className="contact-title title">Contact</div>
 
-            <div className="contact-desc">
+            <div className="contact-desc desc">
                 Always available to discuss.<br />
 
                 Pop me an email at&nbsp;

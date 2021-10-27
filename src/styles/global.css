@@ -130,7 +130,6 @@ body,html {
 }
 
 .contact-desc {
-    font-size: 22px;
     padding: 20px 0px;
 }
 
@@ -149,8 +148,11 @@ body,html {
 }
 
 .education-desc {
-    font-size: 22px;
     margin-bottom: 80px;
+}
+
+.desc {
+    font-size: 22px;
 }
 
 .education-item {
@@ -304,8 +306,8 @@ body,html {
         width: 300px;
     }
 
-    .education-desc {
-        font-size: 15px;
+    .desc {
+        font-size: 20px;
     }
 }
 

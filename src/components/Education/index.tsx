@@ -5,7 +5,7 @@ export default function Education() {
         <div id="education" className="education-content">
             <div>
                 <div className="education-title title">Education</div>
-                <div className="education-desc">To be considered at its fair value in our society, we must study</div>
+                <div className="education-desc desc">To be considered at its fair value in our society, we must study</div>
                 <EducationItem 
                     place="High School of Computer Science (ESI)"
                     name="Bachelor's degree in Computer Sciences with distinction"
