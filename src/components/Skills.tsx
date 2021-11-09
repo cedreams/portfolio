@@ -26,6 +26,7 @@ export default function Skills() {
                         <li ><img alt="php" src="assets/images/icons/php.svg"/><span className="label">PHP</span></li>
                         <li ><img alt="laravel" src="assets/images/icons/laravel.svg"/><span className="label">Laravel</span></li>
                         <li ><img alt="java" src="assets/images/icons/java.svg"/><span className="label">Java</span></li>
+                        <li ><img alt="spring" src="assets/images/icons/spring.svg"/><span className="label">Spring</span></li>
                         <li ><img alt="c" src="assets/images/icons/c.svg"/><span className="label">C</span></li>
                         <li ><img alt="c++" src="assets/images/icons/cplusplus.svg"/><span className="label">C++</span></li>
                         <li ><img alt="material ui" src="assets/images/icons/material-ui.svg"/><span className="label">Material UI</span></li>
@@ -34,6 +35,7 @@ export default function Skills() {
                         <li ><img alt="git" src="assets/images/icons/git.svg"/><span className="label">Git</span></li>
                         <li ><img alt="webpack" src="assets/images/icons/webpack.svg"/><span className="label">Webpack</span></li>
                         <li ><img alt="linux" src="assets/images/icons/linux.svg"/><span className="label">Linux</span></li>
+                        <li ><img alt="docker" src="assets/images/icons/docker.svg"/><span className="label">Docker</span></li>
                     </Fade>
                     </ul>
                 </div> 
