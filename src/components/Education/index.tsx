@@ -7,6 +7,10 @@ export default function Education() {
                 <div className="education-title title">Education</div>
                 <div className="education-desc desc">To be considered at its fair value in our society, we must study</div>
                 <EducationItem 
+                    place="University of Mons (UMONS)"
+                    name="Master's degree in Computer Sciences"
+                    date="now" />
+                <EducationItem 
                     place="High School of Computer Science (ESI)"
                     name="Bachelor's degree in Computer Sciences with distinction"
                     date="2017-2021" />

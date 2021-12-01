@@ -11,7 +11,7 @@ export default function Contact() {
                 Pop me an email at&nbsp;
                 <span className="mail">
                     <a style={{color: "white", textDecoration: "underline"}}href="mailto:hello@cedric.sh">
-                        hello@cedric.sh
+                        me@cedric.sh
                     </a>
                 </span> 
                 &nbsp;or give me a shout on social media.

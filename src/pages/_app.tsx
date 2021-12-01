@@ -1,8 +1,11 @@
 import "../styles/global.css";
 import Head from "next/head";
+import { useEffect, useRef, useState } from "react";
 
 export default function MyApp({ Component, pageProps }: any) {
+
     return (
+        <>
         <div>
             <Head>
             <title>Cédric Thonus — Software Developer</title>
@@ -14,5 +17,6 @@ export default function MyApp({ Component, pageProps }: any) {
             </Head>
             <Component {...pageProps} />
         </div>
+        </>
     );
 }
