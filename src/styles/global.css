@@ -325,22 +325,26 @@ body,html {
     .skills-content-stack-skelet {
         margin-bottom: 40px;
     }
+
+    .custom-shape-divider-bottom-1645041154 svg {
+        height:50px !important;
+    }
 }
 
-.custom-shape-divider-bottom-1644611889 {
+.custom-shape-divider-bottom-1645041154 {
     width: 100%;
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1644611889 svg {
+.custom-shape-divider-bottom-1645041154 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 120px;
+    height: 90px;
 }
 
-.custom-shape-divider-bottom-1644611889 .shape-fill {
+.custom-shape-divider-bottom-1645041154 .shape-fill {
     fill: var(--bg-purple);
 }
