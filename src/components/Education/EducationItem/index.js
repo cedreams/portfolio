@@ -1,6 +1,4 @@
-import EducationItemProps from "./EducationItemProps";
-
-export default function({place, name, date}: EducationItemProps) {
+export default function({place, name, date}) {
     return (
         <>
             <div className="education-item">
