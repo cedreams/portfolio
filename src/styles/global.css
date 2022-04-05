@@ -31,7 +31,7 @@ body, html {
 }
 
 .gradient-name {
-    font-weight: bold;
+    /* font-weight: bold; */
     background: -webkit-linear-gradient(46deg, #0a61a6, #4caf50);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
