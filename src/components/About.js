@@ -10,10 +10,10 @@ export default function About({setOpen}) {
         <div className="about-content">
             Software <span className="title">developer</span> based in Brussels, Belgium.<br />
             Passionate about web technologies.
-            {/* <button onClick={handleClick} className="more-about-me">
+            <button onClick={handleClick} className="more-about-me">
                 More about me
                <ChevronRightIcon />
-            </button> */}
+            </button>
         </div>
     );
 }

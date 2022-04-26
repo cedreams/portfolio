@@ -15,7 +15,7 @@ export default function Home() {
 
     return (
         <>
-            {/* <ModalAboutMe open={open} setOpen={setOpen}/> */}
+            <ModalAboutMe open={open} setOpen={setOpen}/>
             <div className="main-container">
                 <Fade keyframes={fadeInDown} triggerOnce={true}>
                     <Menu />
